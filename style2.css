@@ -638,7 +638,7 @@ p
     }
 }
 
-/*=======Menu 1====*/
+/*/*=======Menu 1====*/
 .menu
 {
     margin: 0 auto;
@@ -695,11 +695,12 @@ p
 }
 .repas h2
 {
-    font-size: 1.25rem;
 
+   
+    font-size: 1.25rem;
     margin: -.56rem 1.38rem 1.13rem 1.38rem;
 }
-.repas p
+.title p
 {
     font-size: .9rem;
 }
@@ -719,6 +720,22 @@ img
 {
     width: 12.50rem;
     height: .56rem;
+}
+.title h2{
+    background: -webkit-linear-gradient(to top,#579c87 0%, #fdcb46 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,#579c87 0%, #fdcb46 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,#579c87 0%, #fdcb46 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,#579c87 0%, #fdcb46 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,#579c87 0%, #fdcb46 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title h2:hover{
+    background-size: 100% 100%;
 }
 .outro
 {
@@ -741,6 +758,10 @@ img
     font-family: 'Devonshire' ,cursive;
     font-size: 2rem;
 }
+#lien, #contact{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /*===Menu2====*/
 
 .menuchic
@@ -783,6 +804,22 @@ img
 .title h2
 {
     font-size: 1rem;
+}
+.title h2{
+    background: -webkit-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title h2:hover{
+    background-size: 100% 100%;
 }
 .première_partie_chic p
 {

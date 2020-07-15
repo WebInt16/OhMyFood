@@ -1,0 +1,108 @@
+$font-stack: Arial,
+Helvetica,
+sans-serif;
+$primary-font:'Roboto',
+sans-serif;
+$fontmenu1:'Devonshire',
+cursive;
+$fontmenu2:'Merriweather',
+serif;
+$fontmenu3:'Dancing Script',
+cursive;
+$font4:'Kaushan Script',
+cursive;
+$fonth:'Segoe Print',
+'Segoe UI',
+Tahoma,
+Geneva,
+Verdana,
+sans-serif;
+$fontanex:'Times New Roman',
+Times,
+serif;
+$topend-color:#579c87;
+$title-color:#fdcb46;
+$menu1:#fcdfdb;
+$menu2:#fff5fe;
+$menu3:#f9f9f9;
+$menu4:#fdfffd;
+$link:#080808;
+$bordersha:0px 0px 21px -8px rgba(0, 0, 0, 0.5);
+@mixin bordersha {
+    box-shadow: -webkit-linear-gradient $bordersha;
+    box-shadow: -moz-linear-gradient $bordersha;
+    box-shadow: -ms-linear-gradient $bordersha;
+    box-shadow: -o-linear-gradient $bordersha;
+    box-shadow: 0px 0px 21px -8px rgba(0, 0, 0, 0.5);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+$background-image:linear-gradient(#e66465, #9198e5);
+@mixin colorrainbow {
+    background-image: -webkit-linear-gradient $background-image;
+    /* For Chrome and Safari */
+    background-image: -moz-linear-gradient $background-image;
+    /* For old Fx (3.6 to 15) */
+    background-image: -ms-linear-gradient $background-image;
+    /* For pre-releases of IE 10*/
+    background-image: -o-linear-gradient $background-image;
+    /* For old Opera (11.1 to 12.0) */
+    background-image: $background-image;
+    /* Standard syntax; must be last */
+    background-image: $background-image;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+$color:linear-gradient(90deg, rgba(209, 149, 51, 1) 19%, rgba(201, 165, 200, 1) 54%, rgba(90, 138, 193, 1) 100%);
+@mixin violetish {
+    background: -webkit-linear-gradient $color;
+    background: -moz-linear-gradient $color;
+    background: -ms-linear-gradient $color;
+    background: -o-linear-gradient $color;
+    background: $color;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+$background:linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(8, 28, 133, 1) 15%, rgba(6, 81, 168, 1) 50%, rgba(0, 212, 255, 1) 90%, rgba(2, 175, 230, 0.5116421568627452) 100%);
+@mixin seablue {
+    background: -webkit-linear-gradient $background;
+    background: -moz-linear-gradient $background;
+    background: -ms-linear-gradient $background;
+    background: -o-linear-gradient $background;
+    background: $background;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+$background-color:linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(25, 121, 9, 1) 0%, rgba(8, 133, 15, 1) 12%, rgba(6, 168, 97, 1) 50%, rgba(0, 255, 164, 1) 81%, rgba(2, 230, 118, 0.5116421568627452) 100%);
+@mixin greenapple {
+    background-color: -webkit-linear-gradient $background-color;
+    background-color: -moz-linear-gradient $background-color;
+    background-color: -ms-linear-gradient $background-color;
+    background-color: -o-linear-gradient $background-color;
+    background: $background-color;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+$desktop: 64rem;
+@mixin desktop {
+    @media (max-width: #{$desktop}) {
+        @content;
+    }
+}
+
+$mobile: 29.94rem;
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}

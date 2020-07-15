@@ -648,7 +648,6 @@ p
     background-color: #fcdfdb;
     -webkit-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
             box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-
         -ms-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
          -o-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
 }
@@ -720,6 +719,22 @@ img
     width: 12.50rem;
     height: .56rem;
 }
+.title h2{
+    background: -webkit-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title h2:hover{
+    background-size: 100% 100%;
+}
 .outro
 {
     display: flex;
@@ -781,8 +796,7 @@ img
     .music .fas
     {
         font-size: 11rem;
-
-        margin-top: .94rem;
+        margin-top: 0.94rem;
         padding-top: 0;
     }
     h2,
