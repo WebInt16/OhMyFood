@@ -756,7 +756,9 @@ img
     font-family: 'Devonshire' ,cursive;
     font-size: 2rem;
 }
-
+#lien, #contact{
+    font-family: 'Times New Roman', Times, serif;
+}
 /*===========Quieries===========*/
 
 

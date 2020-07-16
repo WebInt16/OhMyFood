@@ -891,7 +891,9 @@ img
 {
     margin-bottom: 12.50rem;
 }
-
+#lien, #contact{
+    font-family: 'Times New Roman', Times, serif;
+}
 /*===========Quieries===========*/
 @media (max-width: 48rem)
 {
