@@ -285,6 +285,7 @@ h3
 h3
 {
     font-family: 'Segoe Print', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .menu1,
@@ -346,20 +347,16 @@ section h2
     font-size: 5rem;
 
     display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    
 
     margin-top: 6.94rem;
     padding: .93rem;
 
     color: transparent;
-    /* For Chrome and Safari */
-    /* For old Fx (3.6 to 15) */
-    /* For pre-releases of IE 10*/
-    /* For old Opera (11.1 to 12.0) */
+  
     background-image: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5));
     background-image: linear-gradient(#e66465, #9198e5);
-    /* Standard syntax; must be last */
+  
     background-image: linear-gradient(#e66465, #9198e5);
     -webkit-background-clip: text;
             background-clip: text;
