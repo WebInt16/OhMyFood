@@ -191,8 +191,10 @@ h3
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
+    
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu2 h3
@@ -203,8 +205,10 @@ h3
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
+    
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu2,
@@ -226,8 +230,10 @@ h3
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #090979), color-stop(15%, #081c85), color-stop(50%, #0651a8), color-stop(90%, #00d4ff), to(rgba(2, 175, 230, .511642)));
     background: linear-gradient(90deg, #020024 0%, #090979 0%, #081c85 15%, #0651a8 50%, #00d4ff 90%, rgba(2, 175, 230, .511642) 100%);
+
+     background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+           
 }
 
 .menu3 h3
@@ -235,8 +241,9 @@ h3
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #090979), color-stop(15%, #081c85), color-stop(50%, #0651a8), color-stop(90%, #00d4ff), to(rgba(2, 175, 230, .511642)));
     background: linear-gradient(90deg, #020024 0%, #090979 0%, #081c85 15%, #0651a8 50%, #00d4ff 90%, rgba(2, 175, 230, .511642) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu3,
@@ -262,8 +269,9 @@ h3
     background-color:    -moz-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:     -ms-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:      -o-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu4 h3
@@ -275,8 +283,9 @@ h3
     background-color:    -moz-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:     -ms-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:      -o-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu1,
@@ -357,8 +366,9 @@ section h2
     background-image: linear-gradient(#e66465, #9198e5);
     
     background-image: linear-gradient(#e66465, #9198e5);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -762,8 +772,9 @@ img
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 .intro_chic h1
 {
@@ -776,8 +787,10 @@ img
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
+    
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 .title h2
 {
@@ -861,8 +874,9 @@ img
     color: transparent;
     background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #090979), color-stop(15%, #081c85), color-stop(50%, #0651a8), color-stop(90%, #00d4ff), to(rgba(2, 175, 230, .511642)));
     background: linear-gradient(90deg, #020024 0%, #090979 0%, #081c85 15%, #0651a8 50%, #00d4ff 90%, rgba(2, 175, 230, .511642) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 .première_partie_papilles,
 .deuxième_partie_papilles,
@@ -903,8 +917,9 @@ img
     background-color:    -moz-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:     -ms-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:      -o-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
+    background-clip: text;
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 .première_partie_gout img
 {
@@ -1015,7 +1030,6 @@ p
     .menu4
     {
         width: 42rem;
-        height: none;
     }
     .music .fas
     {
