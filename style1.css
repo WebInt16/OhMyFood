@@ -20,19 +20,6 @@
     padding: 0;
 }
 
-.container
-{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    margin: auto;
-    padding: .31rem;
-
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
 
 
 body
@@ -96,16 +83,7 @@ main
     margin: 1.35rem;
 }
 
-.container section
-{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 
-    width: 100%;
-    margin: .31rem;
-    padding: .31rem;
-}
 
 header,
 footer
@@ -130,15 +108,14 @@ h1
     color: #fdcb46;
 }
 
-h1,
-input
+h1
 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 
     margin: 0 auto;
-    margin-top: .93rem;
+    margin-top: 2rem;
     padding-top: 0;
 
     -webkit-box-pack: center;
@@ -192,7 +169,7 @@ h3
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu2 h3
@@ -204,7 +181,7 @@ h3
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+           
 }
 
 .menu2,
@@ -227,7 +204,7 @@ h3
     background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #090979), color-stop(15%, #081c85), color-stop(50%, #0651a8), color-stop(90%, #00d4ff), to(rgba(2, 175, 230, .511642)));
     background: linear-gradient(90deg, #020024 0%, #090979 0%, #081c85 15%, #0651a8 50%, #00d4ff 90%, rgba(2, 175, 230, .511642) 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu3 h3
@@ -236,7 +213,7 @@ h3
     background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #090979), color-stop(15%, #081c85), color-stop(50%, #0651a8), color-stop(90%, #00d4ff), to(rgba(2, 175, 230, .511642)));
     background: linear-gradient(90deg, #020024 0%, #090979 0%, #081c85 15%, #0651a8 50%, #00d4ff 90%, rgba(2, 175, 230, .511642) 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+           
 }
 
 .menu3,
@@ -263,7 +240,7 @@ h3
     background-color:     -ms-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:      -o-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+            
 }
 
 .menu4 h3
@@ -276,7 +253,7 @@ h3
     background-color:     -ms-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     background-color:      -o-linear-gradient linear-gradient(90deg, #020024 0%, #197909 0%, #08850f 12%, #06a861 50%, #00ffa4 81%, rgba(2, 230, 118, .511642) 100%);
     -webkit-background-clip: text;
-            background-clip: text;
+        
 }
 
 .menu1,
@@ -359,7 +336,7 @@ section h2
   
     background-image: linear-gradient(#e66465, #9198e5);
     -webkit-background-clip: text;
-            background-clip: text;
+          
 
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -699,9 +676,9 @@ p
 {
     font-size: .9rem;
 }
-.première_partie,
-.deuxième_partie,
-.troisième_partie
+.premiere_partie,
+.deuxieme_partie,
+.troisieme_partie
 {
     margin-bottom: 3.13rem;
 }

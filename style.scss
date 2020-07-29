@@ -19,16 +19,7 @@
     padding: 0;
 }
 
-.container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 0.31rem;
-    margin: auto;
-}
+
 
 body {
     font-family: $font-stack;
@@ -90,14 +81,7 @@ main {
     margin: 1.35rem;
 }
 
-.container section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding: 0.31rem;
-    margin: 0.31rem;
-    width: 100%;
-}
+
 
 header,
 footer {
@@ -117,8 +101,7 @@ h1 {
     color: $title-color;
 }
 
-h1,
-input {
+h1{
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -126,7 +109,7 @@ input {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 0.93rem;
+    margin-top: 1rem;
     padding-top: 0;
 }
 
