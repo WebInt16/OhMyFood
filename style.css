@@ -16,8 +16,9 @@
 
 .wrapper
 {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
+    width: 56.25rem;
 }
 
 
@@ -49,7 +50,6 @@ header h1
 {
 
     margin: 0 auto;
-
 } 
 
 .boards
@@ -122,12 +122,10 @@ h4
 {
     font-family: 'Roboto', sans-serif;
     font-size: larger;
-
+    padding-top:0.38rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
-    padding-top: .46rem;
 
     color: #fdcb46;
 
@@ -362,9 +360,6 @@ section p
 
 aside
 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 
     width: 12.50rem;
     height: 2.50rem;
@@ -374,9 +369,6 @@ aside
     border-radius: .63rem;
     background-color: #579c87;
 
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
 }
 
 header,
@@ -397,8 +389,6 @@ p
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
-    padding: .63rem;
 
     color: #fdcb46;
 
@@ -609,7 +599,7 @@ p
 
 .carte
 {
-    width: 50rem;
+    
     margin-top: 3.13rem;
 }
 .intro
@@ -1071,3 +1061,4 @@ p
 
 
 }
+
