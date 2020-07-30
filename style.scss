@@ -1,5 +1,6 @@
 @import 'utilities';
 @import 'config';
+@import 'media';
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -15,7 +16,7 @@
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -35,14 +36,16 @@ header {
         height: 13.38rem;
     }
 }
+header h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-style: italic;
 
+    color: #fdcb46;
+}
 main {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    width: 60rem;
+
     margin: 0 auto;
     @include mobile {
         margin-top: 3.13rem;
@@ -94,7 +97,7 @@ footer {
     width: 100%;
 }
 
-h1 {
+header h1 {
     font-family: $primary-font;
     font-style: italic;
     font-size: 3rem;
@@ -303,9 +306,6 @@ section h2 {
     opacity: 0.3;
 }
 
-main p {
-    text-align: justify;
-}
 
 section p {
     text-align: justify;
@@ -798,9 +798,9 @@ p {
     h3 {
         font-size: 6rem;
     }
-    main {
-        margin-bottom: 3.13rem;
-    }
+    // main {
+    //     margin-bottom: 3.13rem;
+    // }
     .boards {
         margin-top: 6.19rem;
         -webkit-box-orient: vertical;
