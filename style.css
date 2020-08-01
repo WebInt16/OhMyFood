@@ -2,8 +2,8 @@
 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-     margin: 0;
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
 *,
@@ -18,10 +18,13 @@
 {
     margin: 0;
     padding: 0;
-  
 }
 
-
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 body
 {
@@ -46,11 +49,10 @@ header h1
 
     color: #fdcb46;
 }
- main
+main
 {
-
     margin: 0 auto;
-} 
+}
 
 .boards
 {
@@ -58,7 +60,6 @@ header h1
     display: -ms-flexbox;
     display: flex;
         flex-direction: column;
-
 
     margin: 0 auto;
     margin-top: 9.38rem;
@@ -86,13 +87,6 @@ header h1
     margin: 1.35rem;
 }
 
-
-header,
-footer
-{
-    background-color: #579c87;
-}
-
 footer
 {
     position: fixed;
@@ -101,6 +95,31 @@ footer
     width: 100%;
 }
 
+header,
+footer,
+a
+{
+    text-decoration: none;
+    color: #fdcb46;
+    background-color: #579c87;
+}
+
+.container,
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding:5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    color: #fdcb46;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
 
 
 h1
@@ -122,10 +141,12 @@ h4
 {
     font-family: 'Roboto', sans-serif;
     font-size: larger;
-    padding-top:0.38rem;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+
+    padding-top: .38rem;
 
     color: #fdcb46;
 
@@ -360,7 +381,6 @@ section p
 
 aside
 {
-
     width: 12.50rem;
     height: 2.50rem;
     margin: 0 auto;
@@ -368,34 +388,8 @@ aside
 
     border-radius: .63rem;
     background-color: #579c87;
-
 }
 
-header,
-footer,
-a
-{
-    text-decoration: none;
-
-    color: #fdcb46;
-}
-
-footer,
-p
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    color: #fdcb46;
-
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
 
 /*=====index effects======*/
 @keyframes blink
@@ -599,7 +593,6 @@ p
 
 .carte
 {
-    
     margin-top: 3.13rem;
 }
 .intro
@@ -890,142 +883,47 @@ p
 {
     font-size: 1.25rem;
 }
-/*===========Quieries===========*/
-@media (max-width: 64rem)
-{
-    .boards
-    {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+/*=====quieries=====*/
 
-        /*width: 69rem;*/
-        margin: 0;
-        padding-top: 10rem;
-        padding-bottom: 1.5rem;
-
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .row
-    {
-            flex-direction: row;
-
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-    }
-}
-
-@media (max-width: 48rem)
-{
-    .boards
-    {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-
-        /*width: 69rem;*/
-        margin: 0;
-        padding-top: 10rem;
-        padding-bottom: 1.5rem;
-
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-    }
-    .row
-    {
-            flex-direction: column;
-
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-    }
-}
-
-@media (max-width: 29.94rem)
+@media all and (max-width: 480px)
 {
     header h1
     {
-        font-size: 6rem;
+        font-size: 3rem;
     }
+
+    main{
+        padding-bottom: 40px;
+    }
+    .boards
+    {
+        flex-direction: column;
+        max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        margin-top: 30px;
+    }
+    .row
+    {
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        width:100%;
+    }
+
+
     .menu1,
     .menu2,
     .menu3,
     .menu4
     {
-        width: 42rem;
+        max-width: 100%;
+        padding:0;
     }
-    .music .fas
-    {
-        font-size: 11rem;
-
-        margin-top: .94rem;
-        padding-top: 0;
-    }
-    h2,
-    h3
-    {
-        font-size: 6rem;
-    }
-    .menu1 h3
-    {
-        font-size: 6rem;
-    }
-    .menu2 h2
-    {
-        padding-top: 1.06rem;
-        padding-bottom: 2rem;
-    }
-    .menu2 h3
-    {
-        font-size: 8rem;
-    }
-    .menu3 h2
-    {
-        font-size: 7rem;
-
-        padding-top: 3.06rem;
-    }
-    .menu4 h2
-    {
-        font-size: 6rem;
-
-        padding-top: 3.06rem;
-        padding-bottom: 3rem;
-    }
-
-     main
-    {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-
-        margin: 0 auto;
-        margin-bottom: 3.13rem;
-
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    } 
-    .boards
-    {
-            flex-direction: column;
-
-        margin-top: 3.19rem;
-
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-    }
-    .row
-    {
-            flex-direction: column;
-
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
+    .music .fas{
+        padding-top: 70px;
     }
     aside
     {
@@ -1034,8 +932,7 @@ p
         display: flex;
         flex-direction: column-reverse;
 
-        width: 30rem;
-        height: 6rem;
+        max-width: 100%;
 
         -webkit-box-orient: vertical;
         -webkit-box-direction: reverse;
@@ -1043,22 +940,21 @@ p
     }
     aside h4
     {
-        font-size: 3.56rem;
+        font-size: 20px;
+        padding-bottom: 7px;
     }
     footer
     {
-        height: 6.38rem;
+        height: 50px;
     }
-    footer p
+     .container{
+        width: 100%;
+    }
+    .container p
     {
-        font-size: 3rem;
+        font-size: 20px;
 
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
     }
-}
-@media (max-width: 20rem){
-
 
 }
 
