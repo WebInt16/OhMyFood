@@ -25,6 +25,24 @@
     width: 1200px;
     margin: 0 auto;
 }
+.container,
+p
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    padding: 5px;
+
+    color: #fdcb46;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    }
 
 body
 {
@@ -46,11 +64,12 @@ header h1
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     font-style: italic;
-
+    text-align: center;
     color: #fdcb46;
 }
 main
 {
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -59,7 +78,7 @@ main
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
 
     margin: 0 auto;
     margin-top: 9.38rem;
@@ -86,7 +105,48 @@ main
 {
     margin: 1.35rem;
 }
+.menu
+{
+    margin: 0 auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
 
+    background-color: #fcdfdb;
+    -webkit-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
+            box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
+
+        -ms-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
+         -o-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
+}
+.carte
+{
+    width:50rem;
+    margin: 0 auto;
+}
+
+.intro_chic,
+.intro_papilles,
+.intro_gout
+{
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    padding-top: 10px;
+}
+.outro,
+.outro_chic,
+.outro_papilles,
+.outro_gout
+{
+    display: flex;
+    display: -ms-flexbox;
+
+    width: 31.25rem;
+    height: 8.63rem;
+    margin: 0 auto;
+
+    justify-content: center;
+}
 footer
 {
     position: fixed;
@@ -100,26 +160,11 @@ footer,
 a
 {
     text-decoration: none;
+
     color: #fdcb46;
     background-color: #579c87;
 }
 
-.container,
-p
-{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    padding:5px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    color: #fdcb46;
-
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
 
 
 h1
@@ -183,6 +228,7 @@ h3
     background: -webkit-gradient(linear, left top, right top, color-stop(19%, #d19533), color-stop(54%, #c9a5c8), to(#5a8ac1));
     background: linear-gradient(90deg, #d19533 19%, #c9a5c8 54%, #5a8ac1 100%);
     -webkit-background-clip: text;
+
 }
 
 .menu2 h3
@@ -577,24 +623,7 @@ aside
 }
 
 /*=======Menu 1====*/
-.menu
-{
-    margin: 0 auto;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
 
-    background-color: #fcdfdb;
-    -webkit-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-            box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-
-        -ms-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-         -o-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-}
-
-.carte
-{
-    margin-top: 3.13rem;
-}
 .intro
 {
     width: 37.50rem;
@@ -602,15 +631,17 @@ aside
     margin: 0 auto;
     margin-bottom: 2.06rem;
     padding: 0;
+    
 }
 .intro .music .fas
 {
     margin-top: 0;
+    display: -webkit-box;
 }
 .intro h1
 {
     font-family: 'Devonshire' ,cursive;
-
+    text-align: center;
     margin-top: 0 ;
 
     color: black;
@@ -652,25 +683,32 @@ p
 
     justify-content: space-around;
 }
+.title h2{
+    background: -webkit-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,#e66465 0%, #9198e5 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title h2:hover{
+    background-size: 100% 100%;
+}
+
 img
 {
     width: 12.50rem;
     height: .56rem;
 }
-.outro
-{
-    display: flex;
 
-    width: 31.25rem;
-    height: 8.63rem;
-    margin: 0 auto;
-
-    justify-content: center;
-}
 .outro .music .fas
 {
     font-size: 1.88rem;
-
     margin-top: -.91rem;
 }
 .outro h3
@@ -692,11 +730,7 @@ img
     margin-bottom: 5rem;
 
     background-color: #fff5fe;
-    -webkit-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-            box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-
-        -ms-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
-         -o-box-shadow: 0 0 21px -8px rgba(0, 0, 0, .5);
+   
 }
 .menuchic h2
 {
@@ -711,6 +745,8 @@ img
 {
     font-family: 'Merriweather', serif;
 
+    display: -webkit-box;
+
     margin: 0 auto;
     margin-top: 6rem;
     margin-bottom: 6rem;
@@ -723,6 +759,22 @@ img
 .title h2
 {
     font-size: 1rem;
+}
+.title .chic{
+    background: -webkit-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,rgba(201, 165, 200, 1) 0%, rgba(90, 138, 193, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title .chic:hover{
+    background-size: 100% 100%;
 }
 .premiere_partie_chic p
 {
@@ -796,6 +848,8 @@ img
 {
     font-family: 'Dancing Script', cursive;
 
+    display: -webkit-box;
+    margin: 0 auto;
     margin-top: 6rem;
     margin-bottom: 6rem;
 
@@ -809,6 +863,22 @@ img
 .troisieme_partie_papilles
 {
     margin-bottom: 3.13rem;
+}
+.title .papilles{
+    background: -webkit-linear-gradient(to top,rgba(0, 212, 255, 1) 0%, rgba(2, 175, 230, 0.5116421568627452) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,rgba(0, 212, 255, 1) 0%, rgba(2, 175, 230, 0.5116421568627452) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,rgba(0, 212, 255, 1) 0%, rgba(2, 175, 230, 0.5116421568627452) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,rgba(0, 212, 255, 1) 0%, rgba(2, 175, 230, 0.5116421568627452) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,rgba(0, 212, 255, 1) 0%, rgba(2, 175, 230, 0.5116421568627452) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title .papilles:hover{
+    background-size: 100% 100%;
 }
 .outro_papilles
 {
@@ -833,6 +903,8 @@ img
 {
     font-family: 'Kaushan Script', cursive;
 
+    display: -webkit-box;
+    margin: 0 auto;
     margin-top: 6rem;
     margin-bottom: 6rem;
 
@@ -854,6 +926,22 @@ img
 .troisieme_partie_gout
 {
     margin-bottom: 3.13rem;
+}
+.title .gout{
+    background: -webkit-linear-gradient(to top,rgba(25, 121, 9, 1) 0%, rgba(0, 255, 164, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -moz-linear-gradient(to top,rgba(25, 121, 9, 1) 0%, rgba(0, 255, 164, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -ms-linear-gradient(to top,rgba(25, 121, 9, 1) 0%, rgba(0, 255, 164, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: -o-linear-gradient(to top,rgba(25, 121, 9, 1) 0%, rgba(0, 255, 164, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    background: linear-gradient(to top,rgba(25, 121, 9, 1) 0%, rgba(0, 255, 164, 1) 0.25rem, transparent 0.31rem) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+}
+.title .gout:hover{
+    background-size: 100% 100%;
 }
 .outro_gout
 {
@@ -884,46 +972,223 @@ p
     font-size: 1.25rem;
 }
 /*=====quieries=====*/
+@media all and (max-width: 1024px)
+{
+ 
+    .container
+    {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 768px)
+{
+    header{
+        width:100%;
+    }
+    main
+   
+    {
+        display: -webkit-box;
+        width: 100%;
+    }
+    .menu1,
+    .menu2,
+    .menu3,
+    .menu4,
+    .menu
+    {
+        max-width: 100%;
+        padding: 0;
+    }
+    .intro_chic,
+    .intro_papilles,
+    .intro_gout
+    {
+        padding-top: 0.63rem;
+    }
+    .outro_chic,
+    .outro_papilles,
+    .outro_gout
+    {
+        width: 100%;
+    }
+     .boards
+    {
+        flex-direction: column;
+
+        max-width: 100%;
+        margin-top: 1.88rem;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .row
+    {
+            flex-direction: row;
+
+        width: 100%;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+    }
+    .music .fas
+    {
+        padding-top: 2rem;
+    }
+    .zoom{
+        width:100%;
+    }
+    .outro .music .fas
+    {
+        padding-top: 0;
+    }
+    .intro,
+    .carte,
+    .repas,
+    .title,
+    .outro
+    {
+        width: 100%;
+    }
+    footer
+    {
+        width: 100%;
+    }
+    .container
+    {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        width: 100%;
+    }
+    .container p
+    {
+        font-size: 1.25rem;
+    }
+}
 
 @media all and (max-width: 480px)
 {
+    header{
+        width:100%;
+
+    }
+
     header h1
     {
         font-size: 3rem;
     }
 
-    main{
-        padding-bottom: 40px;
+    main
+    {
+        width: 100%;
+       
     }
     .boards
     {
         flex-direction: column;
+
         max-width: 100%;
+        margin-top: 1.88rem;
+
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        margin-top: 30px;
     }
     .row
     {
-        flex-direction: column;
+            flex-direction: column;
+
+        width: 100%;
+
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
-        width:100%;
     }
-
 
     .menu1,
     .menu2,
     .menu3,
-    .menu4
+    .menu4,
+    .menu
     {
         max-width: 100%;
-        padding:0;
+        padding: 0;
     }
-    .music .fas{
-        padding-top: 70px;
+    .music .fas
+    {
+        padding-top: 2rem;
+    }
+    .zoom{
+        width:100%;
+    }
+    .outro .music .fas
+    {
+        padding-top: 0;
+    }
+    .intro,
+    .carte,
+    .repas,
+    .title,
+    .outro
+    {
+        width: 100%;
+    }
+
+    .intro, .intro_chic h1{
+        text-align: center;
+    }
+    .intro_papilles , .intro_gout{
+        width:100%;
+    }
+
+    .premiere_partie,
+    .deuxieme_partie,
+    .troisieme_partie
+    {
+        width: 100%;
+    }
+    .premiere_partie_chic,
+    .deuxieme_partie_chic,
+    .troisieme_partie_chic
+    {
+        width: 100%;
+    }
+
+    .premiere_partie_papilles,
+    .deuxieme_partie_papilles,
+    .troisieme_partie_papilles
+    {
+        width: 100%;
+    }
+
+    .premiere_partie_gout,
+    .deuxieme_partie_gout,
+    .troisieme_partie_gout
+    {
+        width: 100%;
+    }
+    .premiere_partie_gout img
+    {
+        width: 6.13rem;
+    }
+    .outro_chic,
+    .outro_papilles,
+    .outro_gout
+    {
+        width: 100%;
+    }
+    img
+    {
+        width: 3.75rem;
+    }
+    section p
+    {
+        font-size: 0.94rem;
     }
     aside
     {
@@ -940,21 +1205,20 @@ p
     }
     aside h4
     {
-        font-size: 20px;
-        padding-bottom: 7px;
+        font-size: 1.25rem;
+        padding-bottom: 0.44rem;
     }
     footer
     {
-        height: 50px;
+        height: 3.13rem;
+        width:100%;
     }
-     .container{
+    .container
+    {
         width: 100%;
     }
     .container p
     {
-        font-size: 20px;
-
+        font-size: 1.25rem;
     }
-
 }
-
