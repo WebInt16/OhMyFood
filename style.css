@@ -999,7 +999,6 @@ p
     .menu
     {
         max-width: 100%;
-        padding: 0;
     }
     .intro_chic,
     .intro_papilles,
@@ -1017,7 +1016,7 @@ p
     {
         flex-direction: column;
 
-        max-width: 100%;
+        width: 100%;
         margin-top: 1.88rem;
 
         -webkit-box-orient: vertical;
